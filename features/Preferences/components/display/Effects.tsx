@@ -3,8 +3,8 @@ import clsx from 'clsx';
 import usePreferencesStore from '@/features/Preferences/store/usePreferencesStore';
 import { buttonBorderStyles } from '@/shared/lib/styles';
 import { useHasFinePointer } from '@/shared/hooks/useHasFinePointer';
-import { CURSOR_TRAIL_EFFECTS, CLICK_EFFECTS } from '../data/effects/effectsData';
-import CollapsibleSection from './CollapsibleSection';
+import { CURSOR_TRAIL_EFFECTS, CLICK_EFFECTS } from '../../data/effects/effectsData';
+import CollapsibleSection from '../shared/CollapsibleSection';
 import { MousePointer2, Zap } from 'lucide-react';
 
 const CLICK_EFFECT_MANUAL_ORDER = [

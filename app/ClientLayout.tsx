@@ -24,8 +24,8 @@ import { getGlobalAdaptiveSelector } from '@/shared/lib/adaptiveSelection';
 import GlobalAudioController from '@/shared/components/layout/GlobalAudioController';
 import { useClick } from '@/shared/hooks/useAudio';
 import ServiceWorkerRegistration from '@/shared/components/ServiceWorkerRegistration';
-import CursorTrailRenderer from '@/features/Preferences/components/CursorTrailRenderer';
-import ClickEffectRenderer from '@/features/Preferences/components/ClickEffectRenderer';
+import CursorTrailRenderer from '@/features/Preferences/components/renderers/CursorTrailRenderer';
+import ClickEffectRenderer from '@/features/Preferences/components/renderers/ClickEffectRenderer';
 
 // Initialize adaptive selector early to load persisted weights from IndexedDB
 // This runs once at module load time, ensuring weights are ready before games start

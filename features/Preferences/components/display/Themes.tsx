@@ -16,7 +16,7 @@ import { useState } from 'react';
 import { Dice5 } from 'lucide-react';
 import { Random } from 'random-js';
 import { useCustomThemeStore } from '@/features/Preferences/store/useCustomThemeStore';
-import CollapsibleSection from './CollapsibleSection';
+import CollapsibleSection from '../shared/CollapsibleSection';
 import CustomWallpaperUpload from './CustomWallpaperUpload';
 
 const random = new Random();

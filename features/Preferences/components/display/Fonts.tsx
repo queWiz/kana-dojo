@@ -4,10 +4,10 @@ import { useState, useMemo } from 'react';
 import { useClick } from '@/shared/hooks/useAudio';
 import usePreferencesStore from '@/features/Preferences/store/usePreferencesStore';
 import { buttonBorderStyles } from '@/shared/lib/styles';
-import fonts from '../data/fonts/fonts';
-import { isRecommendedFont } from '../data/fonts/recommendedFonts';
+import fonts from '../../data/fonts/fonts';
+import { isRecommendedFont } from '../../data/fonts/recommendedFonts';
 import { Star, Type } from 'lucide-react';
-import CollapsibleSection from './CollapsibleSection';
+import CollapsibleSection from '../shared/CollapsibleSection';
 
 const Fonts = () => {
   const { playClick } = useClick();

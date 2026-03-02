@@ -1,10 +1,10 @@
 'use client';
 import clsx from 'clsx';
-import Themes from './Themes';
-import Fonts from './Fonts';
+import Themes from '../display/Themes';
+import Fonts from '../display/Fonts';
 import Behavior from './Behavior';
 import Backup from './Backup';
-import CollapsibleSection from './CollapsibleSection';
+import CollapsibleSection from '../shared/CollapsibleSection';
 // import GoalTimers from './GoalTimers';
 import {
   Joystick,
@@ -16,7 +16,7 @@ import {
   Wand2,
   // Target
 } from 'lucide-react';
-import Effects from './Effects';
+import Effects from '../display/Effects';
 
 const Settings = () => {
   return (
